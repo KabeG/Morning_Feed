@@ -2,8 +2,7 @@ name: Morning News Rundown
 
 on:
   schedule:
-    # 7:00 AM UTC = 9:00 AM SAST, every day
-    - cron: "0 7 * * *"
+  - cron: '13 6 * * *'
   workflow_dispatch: {}  # allows manual trigger from the Actions tab, for testing
 
 jobs:
