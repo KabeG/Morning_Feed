@@ -2,7 +2,7 @@ name: Morning News Rundown
 
 on:
   schedule:
-  - cron: '13 6 * * *'
+    - cron: '13 6 * * *'
   workflow_dispatch: {}  # allows manual trigger from the Actions tab, for testing
 
 jobs:
