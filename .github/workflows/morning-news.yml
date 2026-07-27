@@ -2,7 +2,7 @@ name: Morning News Rundown
 
 on:
   schedule:
-    - cron: '13 4 * * *'  # 4:13 AM UTC = 6:13 AM SAST, earlier buffer against delays
+    - cron: '13 5 * * *'  # 5:13 AM UTC = 7:13 AM SAST
   workflow_dispatch: {}  # allows manual trigger from the Actions tab, for testing
 
 jobs:
